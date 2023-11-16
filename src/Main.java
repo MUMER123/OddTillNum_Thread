@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        MyThread t = new MyThread("odd_till");
+        t.start();
     }
 }
